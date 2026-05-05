@@ -1,3 +1,4 @@
+import { CodeCopy } from "@/components/code-copy";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Home() {
@@ -104,36 +105,36 @@ export default function Home() {
                   <div className="p-4 bg-blue-200 dark:bg-blue-800 border-2 border-dashed border-blue-400">
                     p-4 (all sides)
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;p-4&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
                   <div className="px-8 bg-blue-200 dark:bg-blue-800 border-2 border-dashed border-blue-400">
                     px-8 (horizontal padding)
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;px-8&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
                   <div className="py-6 bg-blue-200 dark:bg-blue-800 border-2 border-dashed border-blue-400">
                     py-6 (vertical padding)
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;py-6&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
                   <div className="pt-6 bg-blue-200 dark:bg-blue-800 border-2 border-dashed border-blue-400">
                     pt-6 (top padding)
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;pt-6&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -151,9 +152,9 @@ export default function Home() {
                     </div>
                     <div className="absolute inset-0 border-2 border-dashed border-green-400 pointer-events-none" />
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;m-4&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -165,9 +166,9 @@ export default function Home() {
                       mx-4 (horizontal margin)
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;mx-4&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -179,9 +180,9 @@ export default function Home() {
                       my-4 (vertical margin)
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;my-4&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -204,9 +205,9 @@ export default function Home() {
                       Item 3
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;space-y-2&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -221,9 +222,9 @@ export default function Home() {
                       Item 3
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;space-x-4 flex&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -256,9 +257,9 @@ export default function Home() {
                     Item 3
                   </div>
                 </div>
-                <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                   className=&quot;flex gap-2&quot;
-                </code>
+                </CodeCopy>
               </div>
             </div>
 
@@ -277,9 +278,9 @@ export default function Home() {
                       Start
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;flex justify-start&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -291,9 +292,9 @@ export default function Home() {
                       Center
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;flex justify-center&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -305,9 +306,9 @@ export default function Home() {
                       Between
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;flex justify-between&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -319,9 +320,9 @@ export default function Home() {
                       Around
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;flex justify-around&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -341,9 +342,9 @@ export default function Home() {
                       Top
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;flex items-start&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -355,9 +356,9 @@ export default function Home() {
                       Center
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;flex items-center&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -369,9 +370,9 @@ export default function Home() {
                       Bottom
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;flex items-end&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -394,9 +395,9 @@ export default function Home() {
                       3
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;flex flex-row&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -411,9 +412,9 @@ export default function Home() {
                       3
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;flex flex-col&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -435,9 +436,9 @@ export default function Home() {
                       </div>
                     ))}
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;flex flex-wrap&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -451,9 +452,9 @@ export default function Home() {
                       </div>
                     ))}
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;flex flex-nowrap&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -485,9 +486,9 @@ export default function Home() {
                     </div>
                   ))}
                 </div>
-                <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                   className=&quot;grid grid-cols-3 gap-2&quot;
-                </code>
+                </CodeCopy>
               </div>
             </div>
 
@@ -507,10 +508,10 @@ export default function Home() {
                     </div>
                   ))}
                 </div>
-                <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                   className=&quot;grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3
                   gap-2&quot;
-                </code>
+                </CodeCopy>
               </div>
             </div>
 
@@ -534,9 +535,9 @@ export default function Home() {
                     col-span-2
                   </div>
                 </div>
-                <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                   className=&quot;col-span-2&quot; (within grid-cols-3)
-                </code>
+                </CodeCopy>
               </div>
             </div>
 
@@ -556,9 +557,9 @@ export default function Home() {
                     </div>
                   ))}
                 </div>
-                <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                   className=&quot;grid grid-rows-3 grid-flow-col&quot;
-                </code>
+                </CodeCopy>
               </div>
             </div>
 
@@ -585,10 +586,10 @@ export default function Home() {
                     5
                   </div>
                 </div>
-                <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                   className=&quot;grid grid-cols-3 auto-rows-auto
                   grid-flow-dense&quot;
-                </code>
+                </CodeCopy>
               </div>
             </div>
 
@@ -609,9 +610,9 @@ export default function Home() {
                       </div>
                     ))}
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;grid grid-cols-3 gap-x-8 gap-y-4&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -636,10 +637,10 @@ export default function Home() {
                     Footer
                   </div>
                 </div>
-                <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                   className=&quot;grid grid-cols-[200px_1fr]
                   grid-rows-[auto_1fr_auto]&quot;
-                </code>
+                </CodeCopy>
               </div>
             </div>
           </div>
@@ -662,33 +663,33 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex flex-col gap-2">
                   <p className="text-xs">text-xs: The quick brown fox</p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-xs&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="text-sm">text-sm: The quick brown fox</p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-sm&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="text-base">text-base: The quick brown fox</p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-base&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="text-lg">text-lg: The quick brown fox</p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-lg&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="text-2xl">text-2xl: The quick brown fox</p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-2xl&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -701,39 +702,39 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex flex-col gap-2">
                   <p className="font-light">font-light: The quick brown fox</p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;font-light&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="font-normal">
                     font-normal: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;font-normal&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="font-medium">
                     font-medium: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;font-medium&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="font-semibold">
                     font-semibold: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;font-semibold&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="font-bold">font-bold: The quick brown fox</p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;font-bold&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -748,25 +749,25 @@ export default function Home() {
                   <p className="text-left bg-gray-100 dark:bg-gray-700 p-2">
                     text-left: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-left&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="text-center bg-gray-100 dark:bg-gray-700 p-2">
                     text-center: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-center&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="text-right bg-gray-100 dark:bg-gray-700 p-2">
                     text-right: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-right&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -779,34 +780,34 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex flex-col gap-2">
                   <p className="underline">underline: The quick brown fox</p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;underline&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="line-through">
                     line-through: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;line-through&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="underline decoration-wavy">
                     decoration-wavy: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;underline decoration-wavy&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="underline decoration-2 underline-offset-4">
                     decoration-2 underline-offset-4: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;underline decoration-2
                     underline-offset-4&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -819,21 +820,21 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="flex flex-col gap-2">
                   <p className="uppercase">uppercase: The quick brown fox</p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;uppercase&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="lowercase">LOWERCASE: The Quick Brown Fox</p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;lowercase&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="capitalize">capitalize: the quick brown fox</p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;capitalize&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -848,33 +849,33 @@ export default function Home() {
                   <p className="text-blue-500">
                     text-blue-500: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-blue-500&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="text-green-500">
                     text-green-500: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-green-500&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="text-red-500">
                     text-red-500: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-red-500&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="text-gray-500">
                     text-gray-500: The quick brown fox
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-gray-500&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -898,17 +899,17 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="h-20 bg-gradient-to-r from-cyan-500 to-blue-500 rounded"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;bg-gradient-to-r from-cyan-500
                     to-blue-500&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-20 bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 rounded"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;bg-gradient-to-br from-pink-500
                     via-purple-500 to-blue-500&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -923,18 +924,18 @@ export default function Home() {
                   <div className="h-20 border-2 border-dashed border-blue-500 rounded p-4">
                     Dashed Border
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;border-2 border-dashed border-blue-500&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-20 border-4 border-double border-purple-500 rounded p-4">
                     Double Border
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;border-4 border-double
                     border-purple-500&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -947,21 +948,21 @@ export default function Home() {
               <div className="grid grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 rounded bg-blue-500"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;rounded&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 rounded-2xl bg-purple-500"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;rounded-2xl&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 rounded-full bg-green-500"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;rounded-full&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -985,24 +986,24 @@ export default function Home() {
               <div className="grid grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-blue-500 hover:scale-110 transition-transform duration-300"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:scale-110 transition-transform
                     duration-300&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-purple-500 hover:scale-75 transition-transform duration-300"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:scale-75 transition-transform
                     duration-300&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-green-500 hover:scale-x-150 transition-transform duration-300"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:scale-x-150 transition-transform
                     duration-300&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1015,24 +1016,24 @@ export default function Home() {
               <div className="grid grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-blue-500 hover:rotate-45 transition-transform duration-300"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:rotate-45 transition-transform
                     duration-300&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-purple-500 hover:-rotate-45 transition-transform duration-300"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:-rotate-45 transition-transform
                     duration-300&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-green-500 hover:rotate-180 transition-transform duration-300"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:rotate-180 transition-transform
                     duration-300&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1061,9 +1062,9 @@ export default function Home() {
                       Content
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;blur-sm&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="relative h-32">
@@ -1072,9 +1073,9 @@ export default function Home() {
                       Content
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;blur-md&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="relative h-32">
@@ -1083,9 +1084,9 @@ export default function Home() {
                       Content
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;blur-xl&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1098,21 +1099,21 @@ export default function Home() {
               <div className="grid grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-white dark:bg-slate-600 shadow-sm dark:shadow-slate-900/50"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;shadow-sm dark:shadow-slate-900/50&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-white dark:bg-slate-600 shadow-lg dark:shadow-slate-900/50"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;shadow-lg dark:shadow-slate-900/50&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-white dark:bg-slate-600 shadow-2xl dark:shadow-slate-900/50"></div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;shadow-2xl dark:shadow-slate-900/50&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1138,25 +1139,25 @@ export default function Home() {
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-blue-500 animate-pulse"></div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;animate-pulse&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-purple-500 animate-bounce"></div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;animate-bounce&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-green-500 animate-spin"></div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;animate-spin&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1171,27 +1172,27 @@ export default function Home() {
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-blue-500 hover:animate-ping"></div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:animate-ping&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-purple-500 transition-all duration-300 hover:scale-110 hover:rotate-12"></div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;transition-all duration-300 hover:scale-110
                     hover:rotate-12&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-green-500 transition-all duration-500 hover:bg-blue-500 hover:shadow-xl"></div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;transition-all duration-500
                     hover:bg-blue-500 hover:shadow-xl&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1206,10 +1207,10 @@ export default function Home() {
                   <div className="flex justify-center items-center h-24">
                     <div className="animate-spin h-8 w-8 border-4 border-blue-500 rounded-full border-t-transparent"></div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;animate-spin border-4 border-blue-500
                     rounded-full border-t-transparent&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center items-center h-24 gap-1">
@@ -1217,9 +1218,9 @@ export default function Home() {
                     <div className="h-4 w-4 bg-purple-500 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
                     <div className="h-4 w-4 bg-purple-500 rounded-full animate-bounce"></div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;animate-bounce [animation-delay:-0.3s]&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center items-center h-24">
@@ -1228,10 +1229,10 @@ export default function Home() {
                       <div className="absolute inset-0 border-8 border-blue-500 rounded-full border-t-transparent animate-spin"></div>
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;border-8 border-blue-500 rounded-full
                     border-t-transparent animate-spin&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1246,25 +1247,25 @@ export default function Home() {
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-blue-500 animate-[wiggle_1s_ease-in-out_infinite]"></div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;animate-[wiggle_1s_ease-in-out_infinite]&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-purple-500 animate-[fadeIn_1s_ease-in]"></div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;animate-[fadeIn_1s_ease-in]&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-green-500 animate-[slideIn_1s_ease-out]"></div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;animate-[slideIn_1s_ease-out]&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1294,10 +1295,10 @@ export default function Home() {
                   >
                     Hover, Focus, & Active States
                   </button>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:bg-blue-600 active:bg-blue-700
                     focus:ring-2&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <button
@@ -1307,10 +1308,10 @@ export default function Home() {
                   >
                     Hover Fill Effect
                   </button>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:bg-purple-500 hover:text-white
                     transition-all&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1329,9 +1330,9 @@ export default function Home() {
                   >
                     Hover Underline Link
                   </a>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:text-blue-700 hover:underline&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <a
@@ -1342,10 +1343,10 @@ export default function Home() {
                   >
                     Hover Line Grow
                   </a>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;after:w-0 hover:after:w-full
                     after:transition-all&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1365,9 +1366,9 @@ export default function Home() {
                       dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:hover:border-blue-400
                       transition-colors"
                   />
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:border-blue-500 focus:ring-2&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <input
@@ -1378,10 +1379,10 @@ export default function Home() {
                       dark:border-gray-600 dark:bg-gray-700 dark:text-white
                       transition-all duration-300"
                   />
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;focus:scale-105 transition-all
                     duration-300&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1403,10 +1404,10 @@ export default function Home() {
                       Hover to lift card
                     </p>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:shadow-xl hover:-translate-y-1
                     transition-all&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div
@@ -1421,10 +1422,10 @@ export default function Home() {
                       Hover to change colors
                     </p>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;group-hover:text-blue-500
                     transition-colors&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1447,9 +1448,9 @@ export default function Home() {
                       </li>
                     ))}
                   </ul>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:bg-gray-100 transition-colors&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <ul className="space-y-2">
@@ -1464,10 +1465,10 @@ export default function Home() {
                       </li>
                     ))}
                   </ul>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hover:border-blue-500
                     hover:text-blue-500&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1499,10 +1500,10 @@ export default function Home() {
                     </div>
                   ))}
                 </div>
-                <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                   className=&quot;grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3
                   lg:grid-cols-4&quot;
-                </code>
+                </CodeCopy>
               </div>
             </div>
 
@@ -1527,9 +1528,9 @@ export default function Home() {
                     </ul>
                   </div>
                 </nav>
-                <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                   className=&quot;flex flex-col sm:flex-row&quot;
-                </code>
+                </CodeCopy>
               </div>
             </div>
 
@@ -1543,19 +1544,19 @@ export default function Home() {
                   <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">
                     Responsive Heading
                   </h4>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-xl sm:text-2xl md:text-3xl
                     lg:text-4xl&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <p className="text-sm sm:text-base md:text-lg">
                     Responsive paragraph text that changes size at different
                     breakpoints.
                   </p>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;text-sm sm:text-base md:text-lg&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1578,9 +1579,9 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                   className=&quot;flex flex-col md:flex-row&quot;
-                </code>
+                </CodeCopy>
               </div>
             </div>
 
@@ -1595,9 +1596,9 @@ export default function Home() {
                     Content with responsive padding
                   </div>
                 </div>
-                <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                   className=&quot;p-4 sm:p-6 md:p-8 lg:p-12&quot;
-                </code>
+                </CodeCopy>
               </div>
             </div>
 
@@ -1611,17 +1612,17 @@ export default function Home() {
                   <div className="hidden md:block bg-green-100 dark:bg-green-900 p-4 rounded-lg">
                     Only visible on medium screens and up
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;hidden md:block&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="md:hidden bg-red-100 dark:bg-red-900 p-4 rounded-lg">
                     Only visible on small screens
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;md:hidden&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1655,9 +1656,9 @@ export default function Home() {
                       w-32
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;w-16 | w-24 | w-32&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1672,9 +1673,9 @@ export default function Home() {
                   <div className="w-full sm:w-3/4 md:w-1/2 h-16 bg-purple-500 flex items-center justify-center text-white text-sm">
                     w-full → sm:w-3/4 → md:w-1/2
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;w-full sm:w-3/4 md:w-1/2&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1690,9 +1691,9 @@ export default function Home() {
                     min-w-[200px] max-w-sm: This box has a minimum width of
                     200px and maximum width of 24rem (384px)
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;min-w-[200px] max-w-sm&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1715,9 +1716,9 @@ export default function Home() {
                       h-32
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;h-16 | h-24 | h-32&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1738,9 +1739,9 @@ export default function Home() {
                     <p className="mb-2">Lorem ipsum dolor sit amet...</p>
                     <p>Lorem ipsum dolor sit amet...</p>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;min-h-[100px] max-h-48&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1755,17 +1756,17 @@ export default function Home() {
                   <div className="w-screen max-w-full h-32 bg-teal-500 flex items-center justify-center text-white text-sm">
                     w-screen (full viewport width)
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;w-screen h-32&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-[50vh] bg-teal-600 flex items-center justify-center text-white text-sm">
                     h-[50vh] (50% of viewport height)
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;h-[50vh]&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1788,9 +1789,9 @@ export default function Home() {
                       w-auto
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;size-16 | size-24 | w-auto&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
@@ -1807,9 +1808,9 @@ export default function Home() {
                       w-1/2 (50%)
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;w-1/2 h-full&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
                 <div className="flex flex-col gap-2">
                   <div className="h-32 bg-gray-200 dark:bg-gray-700 p-2">
@@ -1817,9 +1818,9 @@ export default function Home() {
                       h-1/2 (50%)
                     </div>
                   </div>
-                  <code className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
+                  <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
                     className=&quot;w-full h-1/2&quot;
-                  </code>
+                  </CodeCopy>
                 </div>
               </div>
             </div>
