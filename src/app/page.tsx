@@ -3,10 +3,10 @@ import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Home() {
   return (
-    <div className="min-h-screen p-8 bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div className="min-h-screen p-4 sm:p-8 overflow-x-hidden bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
       <ThemeToggle />
       <main className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">
+        <h1 className="text-2xl sm:text-3xl font-bold mb-8 text-gray-900 dark:text-white">
           Tailwind CSS Examples
         </h1>
 
@@ -623,7 +623,7 @@ export default function Home() {
                 Template Areas
               </h3>
               <div className="flex flex-col gap-2">
-                <div className="grid grid-cols-[200px_1fr] grid-rows-[auto_1fr_auto] h-64 gap-2 bg-orange-100 dark:bg-orange-900 p-4">
+                <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] grid-rows-[auto_auto_1fr_auto] md:grid-rows-[auto_1fr_auto] gap-2 bg-orange-100 dark:bg-orange-900 p-4">
                   <div className="bg-orange-300 dark:bg-orange-700 p-4 col-span-2">
                     Header
                   </div>
@@ -638,7 +638,7 @@ export default function Home() {
                   </div>
                 </div>
                 <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
-                  className=&quot;grid grid-cols-[200px_1fr]
+                  className=&quot;grid grid-cols-1 md:grid-cols-[200px_1fr]
                   grid-rows-[auto_1fr_auto]&quot;
                 </CodeCopy>
               </div>
@@ -896,7 +896,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Background Colors
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="h-20 bg-gradient-to-r from-cyan-500 to-blue-500 rounded"></div>
                   <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
@@ -919,7 +919,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Border Styles
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="h-20 border-2 border-dashed border-blue-500 rounded p-4">
                     Dashed Border
@@ -945,7 +945,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Border Radius
               </h3>
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 rounded bg-blue-500"></div>
                   <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
@@ -983,7 +983,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Scale Transform
               </h3>
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-blue-500 hover:scale-110 transition-transform duration-300"></div>
                   <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
@@ -1013,7 +1013,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Rotate Transform
               </h3>
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-blue-500 hover:rotate-45 transition-transform duration-300"></div>
                   <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
@@ -1054,7 +1054,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Blur
               </h3>
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="relative h-32">
                     <div className="absolute inset-0 bg-blue-500 blur-sm"></div>
@@ -1096,7 +1096,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Shadows
               </h3>
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="h-20 w-20 bg-white dark:bg-slate-600 shadow-sm dark:shadow-slate-900/50"></div>
                   <CodeCopy className="bg-gray-100 dark:bg-gray-700 p-2 rounded">
@@ -1134,7 +1134,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Basic Animations
               </h3>
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-blue-500 animate-pulse"></div>
@@ -1167,7 +1167,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Hover Animations
               </h3>
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-blue-500 hover:animate-ping"></div>
@@ -1202,7 +1202,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Loading Animations
               </h3>
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center items-center h-24">
                     <div className="animate-spin h-8 w-8 border-4 border-blue-500 rounded-full border-t-transparent"></div>
@@ -1242,7 +1242,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Custom Keyframe Animations
               </h3>
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center">
                     <div className="h-20 w-20 bg-blue-500 animate-[wiggle_1s_ease-in-out_infinite]"></div>
@@ -1286,7 +1286,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Button States
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <button
                     className="px-4 py-2 bg-blue-500 text-white rounded-lg
@@ -1321,7 +1321,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Link States
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <a
                     href="#"
@@ -1356,7 +1356,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Input States
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <input
                     type="text"
@@ -1392,7 +1392,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 Card Hover Effects
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <div
                     className="p-4 bg-white dark:bg-gray-700 rounded-lg shadow-md
@@ -1435,7 +1435,7 @@ export default function Home() {
               <h3 className="text-lg font-medium mb-3 text-gray-900 dark:text-white">
                 List Item Hover
               </h3>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col gap-2">
                   <ul className="divide-y divide-gray-200 dark:divide-gray-700">
                     {["Item 1", "Item 2", "Item 3"].map((item) => (
